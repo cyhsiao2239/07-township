@@ -2,7 +2,7 @@ fetch('題目.json')
     .then(response => response.json())
     .then(data => {
         // 題目一：雲嘉南區域有幾個縣市？
-        const yunJiaNanCityNames = ['雲林縣', '嘉義縣', '臺南市'];
+        const yunJiaNanCityNames = ['雲林縣', '嘉義縣', '嘉義市', '臺南市'];
         const southCityAll = [];
 
         data.forEach(area => {
