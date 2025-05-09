@@ -13,7 +13,7 @@ fetch('題目.json')
             });
         });
 
-        document.querySelector('.south-city-num').textContent = southCityAll.length;
+        document.querySelector('.south-city-num').textContent = southCityAll.length;//數有幾個
         document.querySelector('.south-city-all').textContent = southCityAll.join('、');
 
         // 題目二：新北市有幾個鄉鎮？
